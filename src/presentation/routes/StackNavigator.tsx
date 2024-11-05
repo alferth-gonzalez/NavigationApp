@@ -9,8 +9,8 @@ export const  StackNavigator = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen name="Home" component={HomeScreen} />
-      <Stack.Screen name="Notifications" component={ProductsScreen} />
-      <Stack.Screen name="Profile" component={SettingsScreen} />
+      <Stack.Screen name="Products" component={ProductsScreen} />
+      <Stack.Screen name="Settings" component={SettingsScreen} />
     </Stack.Navigator>
   );
 }
