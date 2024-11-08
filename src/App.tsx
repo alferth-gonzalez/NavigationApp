@@ -4,12 +4,16 @@ import { NavigationContainer } from '@react-navigation/native';
 import { Text } from 'react-native';
 import { StackNavigator } from './presentation/routes/StackNavigator';
 import { SideMenuNavigator } from './presentation/routes/SideMenuNavigator';
+import { TopTabsNavigator } from './presentation/routes/TopTabsNavigator';
+import { BottomTabsNavigator } from './presentation/routes/BottomTabsNavigator';
 
 export default function App() {
   return (
     <NavigationContainer>
       {/* <StackNavigator/> */}
-      <SideMenuNavigator />
+      {/* <SideMenuNavigator /> */}
+      {/* <TobTabsNavigator /> */}
+      <BottomTabsNavigator />
     </NavigationContainer>
   );
 }
